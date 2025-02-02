@@ -84,7 +84,7 @@ const Home = () => {
             Happy Birthday Bro Jacob Boye
           </h1>
           <p style={{ fontSize: "clamp(1rem, 3vw, 1.2rem)", marginBottom: "30px" }}>
-            From all of us at Auxano...You are dear to us...
+            From all of us in Auxano Fellowship...You are very dear to us!
           </p>
           <button
             style={{

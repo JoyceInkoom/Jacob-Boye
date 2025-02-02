@@ -8,6 +8,9 @@ import Footer from "../components/Footer";
 import Prophecies from "../components/PropheciesPage";
 import Gallery from "../components/Gallery";
 import Prayer from "../components/Projects";
+import LetsPlayGame from "../components/Quiz";
+import Guestbook from "../components/GuestBook";
+import MemoryWall from "../components/PhotoBooth";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -25,7 +28,10 @@ const LandingPage = () => {
       <About />
       <Prayer />
       <Gallery />
+      <LetsPlayGame />
       <Prophecies />
+      <Guestbook />
+      <MemoryWall />
       <Contact />
       <Footer />
     </>

@@ -35,7 +35,7 @@ const About = () => {
             marginBottom: "2rem",
           }}
         >
-          Jacob is a rare gift, a man whose kindness, generosity, and meekness shine brightly. He is full of love, compassion, and grace, always putting others before himself. Soft-spoken yet deeply impactful, he cares for people wholeheartedly and gives selflessly. His passion for God's kingdom is unwavering. He follows with dedication and pushes the gospel forward with every step. Jacob is more than a friend or leader; he is family. To Auxano, he is a treasure, a blessing we cherish deeply. We love him dearly and thank God for his life.
+          Jacob is a rare gift, a man whose kindness, generosity, and meekness shine brightly. He is full of love, compassion, and grace, always putting others before himself. Soft-spoken yet deeply impactful. His passion for God's kingdom is unwavering. He follows with dedication and pushes the gospel forward with every step. Jacob is family. To Auxano, he is our treasure, a blessing we cherish deeply. We love him dearly and thank God for his life.
         </p>
       </div>
 
