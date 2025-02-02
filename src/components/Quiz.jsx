@@ -13,7 +13,7 @@ const quizQuestions = [
     correct: "Football",
   },
   {
-    question: "Which of the following does Jacob likes playing?",
+    question: "Which of the following does Jacob like playing?",
     answers: ["8-ball", "Oware", "Video Games"],
     correct: "Video Games",
   },

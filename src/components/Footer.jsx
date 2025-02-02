@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div style={{ flex: "1 1 300px", marginBottom: "1rem" }}>
-          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Follow Me</h3>
+          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Follow Jacob</h3>
           <div>
             <a href="https://twitter.com" style={{ color: "#fff", marginRight: "1rem" }}>
               <FaTwitter style={{ fontSize: "1.5rem" }} />

@@ -14,7 +14,7 @@ const Prayer = () => {
         padding: "2rem",
         backgroundColor: "#f9f9f9",
         flexWrap: "wrap",
-        flexDirection: "row-reverse", // Default for large screens
+        flexDirection: window.innerWidth <= 768 ? "column" : "row-reverse", // Switch layout for small screens
       }}
     >
       {/* Image Section */}
@@ -26,7 +26,7 @@ const Prayer = () => {
           borderRadius: "10%",
           overflow: "hidden",
           backgroundColor: "rgb(30, 64, 175)",
-          marginBottom: "1rem", // Space between image and text on smaller screens
+          marginBottom: window.innerWidth <= 768 ? "1.5rem" : "0", // Add space between image and text on small screens
         }}
       >
         <img
@@ -51,6 +51,7 @@ const Prayer = () => {
           padding: "2rem",
           backgroundColor: "#fff",
           transition: "transform 0.3s ease",
+          textAlign: window.innerWidth <= 768 ? "center" : "left", // Center text on small screens
         }}
         onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
         onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
@@ -60,9 +61,6 @@ const Prayer = () => {
             fontSize: "2rem",
             color: "rgb(30, 64, 175)",
             marginBottom: "1rem",
-            textAlign: "center",
-            fontWeight: "normal",
-            fontFamily: "Arial, sans-serif",
           }}
         >
           Sister Linda's Prayer
@@ -72,32 +70,11 @@ const Prayer = () => {
             fontSize: "1.1rem",
             lineHeight: "1.6",
             color: "#333",
-            textAlign: "justify",
-            fontFamily: "Georgia, serif",
           }}
         >
           {prayerText}
         </p>
       </div>
-
-      {/* Responsive Styles */}
-      <style>
-        {`
-          @media (max-width: 768px) {
-            div[style*="display: flex"] {
-              flex-direction: column;
-              align-items: center;
-            }
-            div[style*="max-width: 700px"] {
-              text-align: center;
-              padding: 1.5rem;
-            }
-            div[style*="max-width: 300px"] {
-              margin-bottom: 2rem; /* Adds space between image and text */
-            }
-          }
-        `}
-      </style>
     </div>
   );
 };
